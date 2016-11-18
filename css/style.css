@@ -1,0 +1,94 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.main-background-div{
+  width:100%;
+  margin:0;
+}
+.main-background-div h1,h3{
+  text-align: center;
+  font-weight: 100;
+}
+.main-background-div h1{
+  position: absolute;
+  top:10vh;
+  left:5%;
+  font-size: 5vw;
+  color:white;
+}
+.main-background-div h3{
+  position: absolute;
+  top:25vh;
+  left:7%;
+  font-size:4vw;
+  color:white;
+}
+.main-background{
+  width:100%;
+}
+
+.top-content{
+  margin-top:35px;
+  text-align: center;
+}
+.top-content p{
+  font-weight: 300;
+}
+.bottom-content{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.bottom-content p{
+  font-weight: 300;
+}
+.pagebreak{
+  width:50%;
+}
+.profile-image{
+
+}
+.footer-color{
+  font-weight: 300;
+  color:black!important;
+}
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
